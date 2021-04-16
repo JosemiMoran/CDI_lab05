@@ -44,7 +44,7 @@ public class ClassA {
     }
 
     /**
-     * 
+     *
      *
      * @param team: The team that is actually playing
      * @return false if counter is 0 the team can't play this turn
