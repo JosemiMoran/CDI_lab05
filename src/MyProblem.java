@@ -9,13 +9,12 @@ public class MyProblem {
     public static Map<Integer, Integer> success;
     public static Integer redCounter;
     public static Integer blackCounter;
-    private static int successCounter;
 
     public static void main(String[] args) {
         System.out.println("Starting main...");
         redCounter = 0;
         blackCounter = 0;
-        successCounter = 0;
+        int successCounter = 0;
         int numThreads = Integer.parseInt(args[0]); //Number of threads of the program
         ArrayList<Thread> threadArrayList = new ArrayList<>(numThreads);
         ClassA classA = new ClassA(); //ClassA object
