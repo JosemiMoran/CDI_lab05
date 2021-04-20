@@ -1,0 +1,5 @@
+1- ¿Observas una diferencia significativa entre el uso de notify() y notifyAll()?
+
+No se consigue observar una diferencia significativa a pesar de que el funcionamiento es distinto.
+
+2- Reflexiona si es posible realizar las tareas de esta semana con los cerrojos (lock).
